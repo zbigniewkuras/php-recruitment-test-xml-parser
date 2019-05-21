@@ -9,7 +9,7 @@
  *
  * @package   XmlParser_SitemapParser
  */
-namespace XmlParser;
+namespace Zbigniewkuras\XmlParser;
 
 /**
  * Class SitemapParser
