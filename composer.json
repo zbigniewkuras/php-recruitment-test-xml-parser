@@ -1,26 +1,30 @@
 {
-    "name": "zbigniewkuras/php-recruitment-test-xml-parser",
-    "description": "PHP recruitment test xml parser",
-    "keywords": ["composer", "package", "sitemap", "xml parser"],
-    "license": "DBAD",
-    "authors": [
-        {
-            "name": "Stefan Toczek",
-            "email": "stefan.toczek@gate-software.com"
+    "name" : "zbigniewkuras/php-recruitment-test-xml-parser",
+    "description" : "PHP recruitment test xml parser",
+    "keywords" : [
+        "composer",
+        "package",
+        "sitemap",
+        "xml parser"
+    ],
+    "license" : "DBAD",
+    "authors" : [{
+            "name" : "Zbigniew Kuraś",
+            "email" : "zbigniew.kuras@gate-software.com"
         }
     ],
-    "type": "project",
-    "require": {
-		"php": ">=7.1",
-        "ext-libxml": "*",
-      "ext-simplexml": "*"
+    "type" : "project",
+    "require" : {
+        "php" : ">=7.0",
+        "ext-libxml" : "*",
+        "ext-simplexml" : "*"
     },
-    "require-dev": {
-		"phpunit/phpunit": "6.*"
+    "require-dev" : {
+        "phpunit/phpunit" : "6.*"
     },
-    "autoload": {
-        "psr-4": {
-            "Stefantoczek\\SitemapParser\\": "src/"
+    "autoload" : {
+        "psr-4" : {
+            "Zbigniewkuras\\XmlParser\\" : "src/"
         }
     }
 }
